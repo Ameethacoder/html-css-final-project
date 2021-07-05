@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+
+/* css for header */
+
+.header{
+    height: 90px;
+    width: 100%;
+    /*background-color:#03a9f4;*/
+    display: flex;
+    justify-content: center;
+
+
+}
+.container{
+    width: 90%;
+    height: 90px;
+    /*background-color: red;*/
+}
+.header_container{
+    justify-content: space-between;
+    
+}
+.logo{
+    height: 90px;
+    width: 15%;
+    /*background-color: yellow;*/
+    font-size: 40px;
+    font-family: Segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color:white ;
+    line-height: 90px;
+}
+.nav{
+    height: 90px;
+    width: 50%;
+    /*background-color: green;*/
+}
+
+.nav-item{
+    width: 20%;
+    height: 90px;
+    /*background-color: grey;*/
+    font-family: Segoe UI;
+    text-align: center;
+    line-height: 90px;
+    color:white ;
+    cursor: pointer;
+}
+.nav-item:hover{
+    background-color: white;
+    color: blue;
+
+}
+.:banner{
+    height: 600px;
+    width: 100%;
+    background-color:grey;
+    background-image: url('./images/banner.jpg');
+
+
+}
+
+
+
+
+
+
+
+
+
+
